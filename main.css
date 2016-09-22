@@ -1,0 +1,39 @@
+body {
+	background-color: lightblue;
+}
+
+.criteria-container {
+	height: 50%;
+}
+
+.criteria-one {
+	border: 1px solid black;
+}
+
+#terrain-section {
+	max-height: 100vh;
+}
+
+#pick-adventure {
+	text-align: center;
+	margin-left: 25%;
+	margin-top: -2.5%;
+	border: 1px solid black;
+	width: 50%;
+	height: 10%;
+	position: absolute;
+}
+
+.terrain {
+	display: inline;
+	width: 50%;
+	height: 50%;
+}
+
+#desert {
+	float: right;
+}
+
+#plains {
+	float: right;
+}

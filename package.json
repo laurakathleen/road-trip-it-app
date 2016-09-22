@@ -1,0 +1,19 @@
+{
+  "name": "road-trip-it-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurakathleen/road-trip-it-app.git"
+  },
+  "author": "Laura Russell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurakathleen/road-trip-it-app/issues"
+  },
+  "homepage": "https://github.com/laurakathleen/road-trip-it-app#readme"
+}
