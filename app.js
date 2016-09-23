@@ -1,8 +1,5 @@
 angular.module('roadTripIt', ['ngRoute'])
 	.config(config)
-	// .controller('TerrainController', TerrainController)
-	// .controller('CityCountryController', CityCountryController)
-	// .controller('PlacesController', PlacesController);
 
 	console.log('sanity check for app.js');
 
@@ -14,7 +11,7 @@ angular.module('roadTripIt', ['ngRoute'])
 	      controller: 'TerrainController',
 	      controllerAs: 'terrainCtrl'        
 	    })
-	    .when('/cit-country',{
+	    .when('/city-country',{
 	    	templateUrl: '/templates/city-country.html',
 	    	controller: 'CityCountryController',
 	    	controllerAs: 'cityCountryCtrl'

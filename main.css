@@ -2,6 +2,8 @@ body {
 	background-color: lightblue;
 }
 
+/*************HOME-TERRAIN**************/
+
 .criteria-container {
 	height: 50%;
 }
@@ -14,12 +16,23 @@ body {
 	max-height: 100vh;
 }
 
+#adventure-heading {
+	position: fixed;
+	height: 10%;
+	margin-top: 33%;
+	z-index: 5;
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	opacity: .75;
+}
+
 #pick-adventure {
 	text-align: center;
 	margin-left: 25%;
 	margin-top: -2.5%;
 	border: 1px solid black;
-	width: 50%;
+	width: 60%;
 	height: 10%;
 	position: absolute;
 }
@@ -37,3 +50,16 @@ body {
 #plains {
 	float: right;
 }
+
+/*************CITY-COUNTRY**************/
+
+.city-country-img img {
+	width: 50%;
+	display: inline;
+}
+
+#country {
+	float: right;
+}
+
+/*************PLACES**************/
