@@ -47,7 +47,7 @@ h2 {
 }
 
 #plain-heading {
-	margin-left: 49%;
+	margin-left: 50%;
 }
 
 #terrain-section {
@@ -131,11 +131,16 @@ h2 {
 	width: 85%:
 }
 
+#pin {
+	width: 80px;
+}
+
 .list-group {
 	margin-left: 35%;
-	background-color: #E8333C;
+	/*background-color: #E8333C;*/
 	width: 20%;
 	height: 10%;
-	color: white;
+	color: black;
 	text-align: center;
+	display: inline-block;
 }

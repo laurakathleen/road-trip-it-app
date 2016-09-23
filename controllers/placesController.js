@@ -47,5 +47,9 @@ function PlacesController(PlaceService, $routeParams){
 	// 	}
 	// 	return results;
 	// }
-	vm.places = PlaceService.queryAllItems();
+
+	// vm.places = PlaceService.queryAllItems();
+
+	vm.mountainCamping = PlaceService.queryMtnCamp();
+
 }
