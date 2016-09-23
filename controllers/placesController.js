@@ -3,9 +3,10 @@ angular.module('roadTripIt')
 
     console.log('places controller!')
 
-PlacesController.$inject = ['PlaceService', '$routeParams'];
-function PlacesController(PlaceService, $routeParams){
+PlacesController.$inject = ['PlaceService', '$routeParams', '$location'];
+function PlacesController(PlaceService, $routeParams, $location){
 	var vm = this;
+
 	// var mountain = document.getElementById('mountain');
 	// var desert = getElementById('desert');
 	// var beach = getElementById('beach');
@@ -48,8 +49,10 @@ function PlacesController(PlaceService, $routeParams){
 	// 	return results;
 	// }
 
-	// vm.places = PlaceService.queryAllItems();
+	//use this one:
+	 vm.places = PlaceService.queryAllItems();
 
-	vm.mountainCamping = PlaceService.queryMtnCamp();
+	//vm.mountainCamping = PlaceService.queryMtnCamp();
 
+	//vm.mountainCamping = PlaceService.getMountainCamping();
 }
