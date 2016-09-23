@@ -1,5 +1,12 @@
-<div class="row" id="places-template">
-    <div class="col-md-6" ng-repeat="place in placesCtrl.places">
-    	<h4>{{place.name}}</h4>
-    </div>
+<div class="places-container">
+	<div class="banner-img">
+		<!-- <img id="car-img" src="/images/car-vector.jpg"> -->
+	</div>
+	<div class="row" id="places-template">
+		<div class="list-group" ng-repeat="place in placesCtrl.places">
+	   		<h4 class="list-group-item-heading">{{place.name}}</h4>
+		</div>
+	</div>
 </div>
+
+
